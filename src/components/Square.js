@@ -16,7 +16,7 @@ function Square({ value, type }) {
 
   useEffect(() => {
     setCurrQuestion(questions[type][value].pop());
-  }, "");
+  }, []);
 
   return (
     <section

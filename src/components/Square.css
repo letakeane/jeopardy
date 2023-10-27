@@ -19,3 +19,9 @@
 .square p {
   font-size: 18px;
 }
+
+.empty {
+  background: darkgray!important;
+  cursor: not-allowed;
+
+}
